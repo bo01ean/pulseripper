@@ -68,12 +68,11 @@ function mapSavedArticles(){
 }  
 
 function scrollToLoadAllStories() {
-  	window.location='saved';
     pid = setInterval(function(){scrollIt();}, scrollSpeed);
 }
 
 function ripStoriesFromIFrame() {
-  pid = setInterval(function(){ getLinks(); }, ripSpeed);
+    pid = setInterval(function(){ getLinks(); }, ripSpeed);
 }
 
 
